@@ -1,0 +1,125 @@
+// .banner{
+//     background: url(../images/banner.png) no-repeat center;
+//     background-size: cover;
+//     height: 958px;
+//     color: #fff;
+// }
+// .title{
+//     font-size: 80px;
+//     line-height: 106px;
+// }
+// .banner a:hover{
+//     opacity: 0.5;
+//     transition: all .3s;
+// }
+// .container{
+//     width: 1200px;
+//     margin: 0 auto;
+//     text-align: center;
+// }
+// .subTitle{
+//     font-size: 64px;
+//     line-height: 84px;
+// }
+// .proPic{
+//     margin: 0 auto 20px;
+// }
+// .btLine{
+//     border-top: 1px solid #000;
+//     width: 384px;
+//     margin: 0 auto;
+//     padding-top: 28px;
+// }
+
+// .icon::after{
+//     content: '';
+//     width: 22px;
+//     height: 22px;
+//     background: #891818;
+//     display: inline-block;
+//     border-radius: 50%;
+//     margin-right: 16px;
+// }
+
+// .brand{
+//     width: 1200px;
+//     margin: 0 auto;
+// }
+// .brand .subTitle{
+//     margin-bottom: 20px;
+// }
+// .contactContent a{
+//     color: #fff;
+// }
+// .contactContent a:hover{
+//     opacity: 0.5;
+//     transition: all .3s;
+// }
+
+.banner{
+    background: url(../images/banner.png) no-repeat center;
+    background-size: cover;
+    height: 958px;
+    color: #fff;
+}
+.banner .container{
+  text-align: left;
+  width: auto;
+}
+.title{
+    font-size: 80px;
+    line-height: 106px;
+}
+.title span{
+  display: block;
+  font-size: 24px;
+  line-height: 42px;
+  font-weight: normal;
+}
+.banner a:hover{
+    opacity: 0.5;
+    transition: all .3s;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.subTitle{
+    font-size: 64px;
+    line-height: 84px;
+}
+.proPic{
+    margin: 0 auto 20px;
+}
+.btLine{
+    border-top: 1px solid #000;
+    width: 384px;
+    margin: 0 auto;
+    padding-top: 28px;
+}
+
+.dsic li::before{
+    content: '';
+    width: 22px;
+    height: 22px;
+    background: #891818;
+    display: inline-block;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+.brand{
+    width: 1200px;
+    margin: 0 auto;
+}
+.brandTitle{
+    margin-bottom: 20px;
+}
+.contactContent a{
+    color: #fff;
+}
+.contactContent a:hover{
+    opacity: 0.5;
+    transition: all .3s;
+}
