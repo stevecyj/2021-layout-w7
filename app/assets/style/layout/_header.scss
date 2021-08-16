@@ -1,0 +1,13 @@
+.header {
+    border-bottom: 1px solid #121212;
+    &-logo-link {
+        background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week7/logo-fixie.svg);
+        width: 112px;
+        height: 48px;
+    }
+    &-logo-link {
+        white-space: nowrap; /* 規定段落中的文字不得進行換行 */
+        text-indent: 101%; /* 強迫文字縮排至原本的區域外 */
+        overflow: hidden; /* 將超出範圍的內容隱藏 */
+    }
+}
