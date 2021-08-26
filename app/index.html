@@ -5,10 +5,10 @@ engine: ejs
 current: index
 ---
 <!-- Banner -->
-<section class="container-fluid banner d-flex g-0 justify-content-end">
+<!-- <section class="container-fluid banner d-flex g-0 justify-content-end">
     <div class="banner-card card border-0 me-4">
         <div class="card-body p-0 d-flex flex-column justify-content-center ">
-            <h5 class="card-title fs-1" data-aos="slide-right" data-aos-duration="800">Single Speed, Single Life.</h5>
+            <h3 class="card-title fs-1" data-aos="slide-right" data-aos-duration="800">Single Speed, Single Life.</h3>
             <p class="card-text my-12 fs-4 banner-text" data-aos="slide-right" data-aos-duration="800">
                 More recently the “fixie” has become a popular alternative among mainly urban cyclists, offering the
                 advantage of simplicity compared with the standard multi-geared bicycle.
@@ -18,11 +18,35 @@ current: index
         </div>
     </div>
     <div class="banner-img bg-cover" data-aos="slide-left" data-aos-duration="800"></div>
+</section> -->
+<!-- Copied Banner -->
+<section class="banner position-relative">
+    <div class="container-fluid h-100">
+        <div class="row h-100">
+            <div class="col-5 d-flex flex-column justify-content-center">
+                <h3 class="fs-1" data-aos="slide-right" data-aos-duration="800">Single Speed, Single
+                    Life.
+                </h3>
+                <p class="my-12 fs-4 banner-text" data-aos="slide-right" data-aos-duration="800">
+                    More recently the “fixie” has become a popular alternative among mainly urban cyclists, offering the
+                    advantage of simplicity compared with the standard multi-geared bicycle.
+                </p>
+                <a href="#" class="btn btn-primary fs-4 banner-btn" data-aos="slide-right" data-aos-duration="800">Shop
+                    Now</a>
+            </div>
+
+            <!-- <div class="col-6">
+            </div> -->
+        </div>
+        <div class="banner-img bg-cover position-absolute top-0 end-0" data-aos="slide-left" data-aos-duration="800">
+        </div>
+    </div>
+
 </section>
 
 <!-- Collection 001-xx（Page） -->
-<section class="container-fluid g-0" data-aos="slide-left" data-aos-duration="800">
-    <div class="row g-0">
+<section class="container-fluid" data-aos="slide-left" data-aos-duration="800">
+    <div class="row">
         <div class="page col-6 offset-md-6 d-flex align-items-center">
             <button type="button" class="btn d-block p-9">
                 <span class="material-icons-outlined">
@@ -51,10 +75,10 @@ current: index
                 direct power transfer from rider to the wheels. Thus, it requires less energy in any given gear to move
                 than a geared bike in the same gear.
             </p>
-            <h5 class="card-title fs-2 fw-bold item1-title align-self-end me-24 text-end fst-italic">
+            <h3 class="card-title fs-2 fw-bold item1-title align-self-end me-24 text-end fst-italic">
                 One Gear, <br />
                 Many Variations
-            </h5>
+            </h3>
 
         </div>
     </div>
@@ -71,10 +95,10 @@ current: index
     data-aos-duration="400">
     <div class="card item2-card border-0">
         <div class="card-body d-flex flex-column justify-content-between">
-            <h5 class="card-title fs-2 fw-bold item2-title ms-24 fst-italic">
+            <h3 class="card-title fs-2 fw-bold item2-title ms-24 fst-italic">
                 Stripped-Down <br />
                 Performance
-            </h5>
+            </h3>
             <p class="card-text item2-text mb-24 align-self-end text-end">
                 Without the added parts required for a fully geared drive train—derailleurs, shifters, cables, cable
                 carriers, multiple chain rings, freewheel hub, brazed-on mounting lugs—a fixed gear bicycle weighs less
@@ -126,8 +150,8 @@ current: index
 
 <!-- Card List * 3 -->
 <section class="container article mb-24" data-aos="slide-up" data-aos-duration="800">
-    <div class="row">
-        <div class="col-4">
+    <ul class="row">
+        <li class="col-4">
             <div class="card border-0">
                 <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week7/img5.jpg"
                     class="card-img-top article-img" alt="img5">
@@ -143,8 +167,8 @@ current: index
                     </p>
                 </div>
             </div>
-        </div>
-        <div class="col-4">
+        </li>
+        <li class="col-4">
             <div class="card border-0">
                 <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week7/img5.jpg"
                     class="card-img-top article-img" alt="img5">
@@ -160,8 +184,8 @@ current: index
                     </p>
                 </div>
             </div>
-        </div>
-        <div class="col-4">
+        </li>
+        <li class="col-4">
             <div class="card border-0">
                 <img src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week7/img5.jpg"
                     class="card-img-top article-img" alt="img5">
@@ -177,6 +201,6 @@ current: index
                     </p>
                 </div>
             </div>
-        </div>
-    </div>
+        </li>
+    </ul>
 </section>

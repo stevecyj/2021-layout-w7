@@ -1,11 +1,9 @@
 .banner {
-    &-card {
-        width: 35%;
-    }
+    height: 864px;
     &-img {
         background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week7/img1.jpg);
         height: 864px;
-        width: 50%;
+        width: 960px;
     }
     &-text {
         color: #00000099;
@@ -45,14 +43,14 @@
         &-read {
             background-color: #f1f5f6;
             top: 50%;
-            left: 42.3%;
-            transform: translate(3%, -53%);
+            left: 50%;
+            transform: translate(-100%, -50%);
         }
         &-forward {
             background-color: #121212;
             top: 50%;
-            left: 50.2%;
-            transform: translate(-3%, -53%);
+            left: 50%;
+            transform: translate(0%, -50%);
         }
         &-title {
             margin-bottom: 192px;
@@ -71,14 +69,14 @@
         &-read {
             background-color: #121212;
             top: 50%;
-            left: 42.3%;
-            transform: translate(3%, -53%);
+            left: 50%;
+            transform: translate(-100%, -50%);
         }
         &-forward {
             background-color: #f1f5f6;
             top: 50%;
-            left: 50.2%;
-            transform: translate(-3%, -50%);
+            left: 50%;
+            transform: translate(0%, -50%);
         }
         &-title {
             margin-top: 192px;
@@ -103,6 +101,7 @@
 .avatar {
     background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week7/img4.jpg);
     height: 640px;
+    background-attachment: fixed;
     &-text {
         color: #00000099;
     }
