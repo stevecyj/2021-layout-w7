@@ -11,3 +11,9 @@
         overflow: hidden; /* 將超出範圍的內容隱藏 */
     }
 }
+.nav-text {
+    color: black;
+    &:hover {
+        color: #00cc99;
+    }
+}
