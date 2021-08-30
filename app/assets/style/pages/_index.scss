@@ -1,7 +1,8 @@
 .banner {
     height: 864px;
-    &-squeeze {
-        width: 73%;
+    .container {
+        min-width: 1410px;
+        padding: 15px;
     }
     &-img {
         background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week7/img1.jpg);
