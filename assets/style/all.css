@@ -1,0 +1,230 @@
+@charset "UTF-8";
+/* * , *:befor , *:after  {
+	box-sizing: border-box;
+} */
+body {
+  font-family: Merriweather, Lato, sans-serif;
+  overflow-x: hidden;
+  /* 確保AOS套件在RWD不會出現X軸 */
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  /* 去除圖片底下的2-3px空白 */
+  max-width: 100%;
+  /* 使之貼其父元素，才不會有圖片過大情況發生 */
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  line-height: 1.2;
+  margin-bottom: 0;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: pink;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.bg-cover {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header {
+  border-bottom: 1px solid #121212;
+}
+
+.header-logo-link {
+  background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week7/logo-fixie.svg);
+  width: 112px;
+  height: 48px;
+}
+
+.header-logo-link {
+  white-space: nowrap;
+  /* 規定段落中的文字不得進行換行 */
+  text-indent: 101%;
+  /* 強迫文字縮排至原本的區域外 */
+  overflow: hidden;
+  /* 將超出範圍的內容隱藏 */
+}
+
+.nav-text {
+  color: black;
+}
+
+.nav-text:hover {
+  color: #00cc99;
+}
+
+.footer-container {
+  background: #f1f5f6;
+}
+
+.footer-copyright {
+  color: #00000099;
+}
+
+.banner {
+  height: 864px;
+}
+
+.banner .container {
+  min-width: 1410px;
+  padding: 15px;
+}
+
+.banner-img {
+  background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week7/img1.jpg);
+  height: 864px;
+  width: 960px;
+}
+
+.banner-text {
+  color: #00000099;
+}
+
+.banner-btn {
+  width: 211px;
+  border: 1px solid #121212;
+  color: black;
+  background-color: #f1f5f6;
+}
+
+.page {
+  border-left: 1px solid #000000de;
+  border-bottom: 1px solid #000000de;
+}
+
+.page-button {
+  border-left: 1px solid #000000de;
+  border-right: 1px solid #000000de;
+}
+
+.introduction-img1 {
+  width: 50%;
+  background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week7/img2.jpg);
+  height: 960px;
+}
+
+.introduction-img2 {
+  background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week7/img3.jpg);
+  height: 960px;
+}
+
+.introduction .item1-card {
+  background-color: #f1f5f6;
+  width: 50%;
+}
+
+.introduction .item1-read {
+  background-color: #f1f5f6;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-100%, -50%);
+      -ms-transform: translate(-100%, -50%);
+          transform: translate(-100%, -50%);
+}
+
+.introduction .item1-forward {
+  background-color: #121212;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(0%, -50%);
+      -ms-transform: translate(0%, -50%);
+          transform: translate(0%, -50%);
+}
+
+.introduction .item1-title {
+  margin-bottom: 192px;
+}
+
+.introduction .item1-text {
+  color: #00000099;
+  width: 570px;
+  margin-left: 135px;
+}
+
+.introduction .item2-card {
+  background-color: #f1f5f6;
+  width: 50%;
+}
+
+.introduction .item2-read {
+  background-color: #121212;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-100%, -50%);
+      -ms-transform: translate(-100%, -50%);
+          transform: translate(-100%, -50%);
+}
+
+.introduction .item2-forward {
+  background-color: #f1f5f6;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(0%, -50%);
+      -ms-transform: translate(0%, -50%);
+          transform: translate(0%, -50%);
+}
+
+.introduction .item2-title {
+  margin-top: 192px;
+}
+
+.introduction .item2-text {
+  color: #00000099;
+  width: 570px;
+  margin-right: 135px;
+}
+
+.quote-card {
+  width: 43%;
+}
+
+.quote-text {
+  color: #00000099;
+}
+
+.avatar {
+  background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week7/img4.jpg);
+  height: 640px;
+  background-attachment: fixed;
+}
+
+.avatar-text {
+  color: #00000099;
+}
+
+/*# sourceMappingURL=all.css.map */
