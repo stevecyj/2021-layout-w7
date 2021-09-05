@@ -1,230 +1,223 @@
-@charset "UTF-8";
-/* * , *:befor , *:after  {
-	box-sizing: border-box;
-} */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
 body {
-  font-family: Merriweather, Lato, sans-serif;
-  overflow-x: hidden;
-  /* 確保AOS套件在RWD不會出現X軸 */
-  line-height: 1.5;
-}
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.pt-7 {
+  padding-top: 56px; }
+
+.pb-7 {
+  padding-bottom: 56px; }
+
+.pt-8 {
+  padding-top: 64px; }
+
+.pb-8 {
+  padding-bottom: 64px; }
+
+.pb-12 {
+  padding-bottom: 96px; }
+
+.pb-20 {
+  padding-bottom: 160px; }
+
+.mb-1 {
+  margin-bottom: 4px; }
+
+.mb-2 {
+  margin-bottom: 8px; }
+
+.mb-4 {
+  margin-bottom: 16px; }
+
+.mb-6 {
+  margin-bottom: 24px; }
+
+.mb-7 {
+  margin-bottom: 28px; }
+
+.mb-8 {
+  margin-bottom: 32px; }
+
+.mb-10 {
+  margin-bottom: 40px; }
+
+.mb-12 {
+  margin-bottom: 48px; }
+
+.mb-14 {
+  margin-bottom: 56px; }
+
+.mb-17 {
+  margin-bottom: 68px; }
+
+.mr-6 {
+  margin-right: 24px; }
+
+.bold {
+  font-weight: bold; }
+
+.font-s {
+  font-size: 20px; }
+
+.lh-5 {
+  line-height: 30px; }
+
+.lh-6 {
+  line-height: 36px; }
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.f-wrap {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.jc-c {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.jc-sb {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.ai-c {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.bg-black {
+  background: #000;
+  color: #fff;
+  text-align: center; }
 
 img {
-  display: block;
-  /* 去除圖片底下的2-3px空白 */
   max-width: 100%;
-  /* 使之貼其父元素，才不會有圖片過大情況發生 */
   height: auto;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
-  line-height: 1.2;
-  margin-bottom: 0;
-}
+  display: block; }
 
 a {
-  display: block;
   text-decoration: none;
-  color: black;
-}
+  display: block; }
 
-a:hover {
-  color: pink;
-}
-
-p {
-  margin-bottom: 0;
-}
-
-ul,
-ol,
-li {
-  list-style: none;
-  padding: 0;
-  margin-bottom: 0;
-}
-
-.bg-cover {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.header {
-  border-bottom: 1px solid #121212;
-}
-
-.header-logo-link {
-  background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week7/logo-fixie.svg);
-  width: 112px;
-  height: 48px;
-}
-
-.header-logo-link {
-  white-space: nowrap;
-  /* 規定段落中的文字不得進行換行 */
-  text-indent: 101%;
-  /* 強迫文字縮排至原本的區域外 */
-  overflow: hidden;
-  /* 將超出範圍的內容隱藏 */
-}
-
-.nav-text {
-  color: black;
-}
-
-.nav-text:hover {
-  color: #00cc99;
-}
-
-.footer-container {
-  background: #f1f5f6;
-}
-
-.footer-copyright {
-  color: #00000099;
-}
+body {
+  font-size: 24px;
+  line-height: 42px;
+  font-family: roboto; }
 
 .banner {
-  height: 864px;
-}
+  background: url(../images/banner.png) no-repeat center;
+  background-size: cover;
+  height: 958px;
+  color: #fff; }
 
 .banner .container {
-  min-width: 1410px;
-  padding: 15px;
-}
+  text-align: left;
+  width: auto; }
 
-.banner-img {
-  background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week7/img1.jpg);
-  height: 864px;
-  width: 960px;
-}
+.title {
+  font-size: 80px;
+  line-height: 106px; }
 
-.banner-text {
-  color: #00000099;
-}
+.title span {
+  display: block;
+  font-size: 24px;
+  line-height: 42px;
+  font-weight: normal; }
 
-.banner-btn {
-  width: 211px;
-  border: 1px solid #121212;
-  color: black;
-  background-color: #f1f5f6;
-}
+.banner a:hover {
+  opacity: 0.5;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s; }
 
-.page {
-  border-left: 1px solid #000000de;
-  border-bottom: 1px solid #000000de;
-}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center; }
 
-.page-button {
-  border-left: 1px solid #000000de;
-  border-right: 1px solid #000000de;
-}
+.subTitle {
+  font-size: 64px;
+  line-height: 84px; }
 
-.introduction-img1 {
-  width: 50%;
-  background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week7/img2.jpg);
-  height: 960px;
-}
+.proPic {
+  margin: 0 auto 20px; }
 
-.introduction-img2 {
-  background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week7/img3.jpg);
-  height: 960px;
-}
+.btLine {
+  border-top: 1px solid #000;
+  width: 384px;
+  margin: 0 auto;
+  padding-top: 28px; }
 
-.introduction .item1-card {
-  background-color: #f1f5f6;
-  width: 50%;
-}
+.dsic li::before {
+  content: '';
+  width: 22px;
+  height: 22px;
+  background: #891818;
+  display: inline-block;
+  border-radius: 50%;
+  margin-right: 16px; }
 
-.introduction .item1-read {
-  background-color: #f1f5f6;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-100%, -50%);
-      -ms-transform: translate(-100%, -50%);
-          transform: translate(-100%, -50%);
-}
+.brand {
+  width: 1200px;
+  margin: 0 auto; }
 
-.introduction .item1-forward {
-  background-color: #121212;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(0%, -50%);
-      -ms-transform: translate(0%, -50%);
-          transform: translate(0%, -50%);
-}
+.brandTitle {
+  margin-bottom: 20px; }
 
-.introduction .item1-title {
-  margin-bottom: 192px;
-}
+.contactContent a {
+  color: #fff; }
 
-.introduction .item1-text {
-  color: #00000099;
-  width: 570px;
-  margin-left: 135px;
-}
-
-.introduction .item2-card {
-  background-color: #f1f5f6;
-  width: 50%;
-}
-
-.introduction .item2-read {
-  background-color: #121212;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-100%, -50%);
-      -ms-transform: translate(-100%, -50%);
-          transform: translate(-100%, -50%);
-}
-
-.introduction .item2-forward {
-  background-color: #f1f5f6;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(0%, -50%);
-      -ms-transform: translate(0%, -50%);
-          transform: translate(0%, -50%);
-}
-
-.introduction .item2-title {
-  margin-top: 192px;
-}
-
-.introduction .item2-text {
-  color: #00000099;
-  width: 570px;
-  margin-right: 135px;
-}
-
-.quote-card {
-  width: 43%;
-}
-
-.quote-text {
-  color: #00000099;
-}
-
-.avatar {
-  background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week7/img4.jpg);
-  height: 640px;
-  background-attachment: fixed;
-}
-
-.avatar-text {
-  color: #00000099;
-}
+.contactContent a:hover {
+  opacity: 0.5;
+  -webkit-transition: all .3s;
+  -o-transition: all .3s;
+  transition: all .3s; }
 
 /*# sourceMappingURL=all.css.map */

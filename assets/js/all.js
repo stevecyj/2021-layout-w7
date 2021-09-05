@@ -1,6 +1,7 @@
 "use strict";
 
-$(function () {
-  console.log('Hello Bootstrap5');
+console.log('Hello!');
+$(document).ready(function () {
+  console.log('HesSchool Hello!');
 });
 //# sourceMappingURL=all.js.map
